@@ -1,0 +1,13 @@
+/*
+ * @Author: LiangChenkang 
+ * @Date: 2020-05-13 09:36:51 
+ * @Last Modified by:   LiangChenkang 
+ * @Last Modified time: 2020-05-13 09:36:51 
+ */
+/* 改变主题色变量 */
+$--color-primary: #1890FF;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

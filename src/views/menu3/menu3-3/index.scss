@@ -1,0 +1,30 @@
+.students-infomation {
+    background-color: #ffffff;
+    padding: 32px;
+    .students-select{
+        display: flex;
+        .el-select, .el-input{
+            width: 240px;
+        }
+        .el-input{
+            margin-right: 32px;
+        }
+        .el-select{
+            margin-right: 32px;
+        }
+    }
+    .pagination-container {
+        display: flex;
+        margin-top: 32px;
+        justify-content: flex-end;
+    }
+    .el-input__inner{
+        width: auto;
+    }
+    .students-table {
+        margin-top: 32px;
+    }
+    .dr-btn{
+        margin-top: 32px;
+    }
+}

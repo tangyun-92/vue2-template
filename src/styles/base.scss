@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* 搜索区域 */
+.search-container {
+  display: flex;
+
+  .search-condition {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin: 0 12px 0 32px;
+    }
+
+    &:first-child > span {
+      margin-left: 0;
+    }
+     
+    .el-select,.el-input {
+      width: 264px;
+    }
+  }
+  
+  .search-btns {
+    font-size: 0; 
+    margin-left: 32px; 
+    
+    .el-button {
+      margin-left: 12px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.create-btn-wrap {
+  margin-top: 20px;
+}
+
+/* 常规列表页 分页区域 */
+.pagination-container {
+  display: flex;
+  margin-top: 32px;
+  justify-content: flex-end;
+}

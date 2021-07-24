@@ -1,0 +1,39 @@
+.mark-students{
+    background-color: #ffffff;
+    padding: 32px;
+    .students-select{
+        display: flex;
+        .el-input, .el-select{
+            width: 240px;
+            margin-right: 32px;
+        }
+        
+        
+    }
+    .pagination-container {
+        display: flex;
+        margin-top: 32px;
+        justify-content: flex-end;
+    }
+    .el-input__inner{
+        width: auto;
+    }
+    .students-table {
+        margin-top: 32px;
+    }
+
+    .addMark-content{
+        .dialog-search{
+            display: flex;
+            .el-input.el-input--suffix{
+                margin-right: 32px;
+            }
+        }
+        .dialog-table{
+            margin-top: 32px;
+        }
+        
+        
+    }
+    
+}

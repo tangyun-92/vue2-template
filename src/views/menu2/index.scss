@@ -1,0 +1,23 @@
+.site-management {
+
+  .site-management-main {
+    // min-height: calc(100vh - 128px);
+  }
+
+  .content-container {
+    position: relative;
+    margin-top: 24px;
+    width: 100%;
+
+    .el-table {
+      position: absolute;
+      top: 0;
+      // opacity: 0;
+    }
+
+    &>:first-child {
+      position: static;
+      opacity: 0;
+    }
+  }
+}

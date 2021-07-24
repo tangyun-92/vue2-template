@@ -1,0 +1,6 @@
+export { default as CommandCenterForm } from './Form/CommandCenterForm.vue'
+export { default as ExamBusinessOfficeForm } from './Form/ExamBusinessOfficeForm.vue'
+export { default as ExamRoomForm } from './Form/ExamRoomForm.vue'
+export { default as PrinteryForm } from './Form/PrinteryForm.vue'
+export { default as ScanPointForm } from './Form/ScanPointForm.vue'
+export { default as SecretRoomForm } from './Form/SecretRoomForm.vue'
